@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9B69BE1B5CD961007FBCCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69BD1B5CD961007FBCCF /* main.m */; };
+		FD9B69C11B5CD961007FBCCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69C01B5CD961007FBCCF /* AppDelegate.m */; };
+		FD9B69C41B5CD961007FBCCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69C31B5CD961007FBCCF /* ViewController.m */; };
+		FD9B69C71B5CD961007FBCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9B69C51B5CD961007FBCCF /* Main.storyboard */; };
+		FD9B69C91B5CD961007FBCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9B69C81B5CD961007FBCCF /* Images.xcassets */; };
+		FD9B69CC1B5CD961007FBCCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9B69CA1B5CD961007FBCCF /* LaunchScreen.xib */; };
+		FD9B69D81B5CD961007FBCCF /* IntergalacticTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69D71B5CD961007FBCCF /* IntergalacticTravelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD9B69D21B5CD961007FBCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9B69B01B5CD961007FBCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9B69B71B5CD961007FBCCF;
+			remoteInfo = IntergalacticTraveler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD9B69B81B5CD961007FBCCF /* IntergalacticTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9B69BC1B5CD961007FBCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9B69BD1B5CD961007FBCCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9B69BF1B5CD961007FBCCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD9B69C01B5CD961007FBCCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD9B69C21B5CD961007FBCCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD9B69C31B5CD961007FBCCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD9B69C61B5CD961007FBCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9B69C81B5CD961007FBCCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD9B69CB1B5CD961007FBCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD9B69D11B5CD961007FBCCF /* IntergalacticTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9B69D61B5CD961007FBCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9B69D71B5CD961007FBCCF /* IntergalacticTravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9B69B51B5CD961007FBCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9B69CE1B5CD961007FBCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9B69AF1B5CD961007FBCCF = {
+			isa = PBXGroup;
+			children = (
+				FD9B69BA1B5CD961007FBCCF /* IntergalacticTraveler */,
+				FD9B69D41B5CD961007FBCCF /* IntergalacticTravelerTests */,
+				FD9B69B91B5CD961007FBCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9B69B91B5CD961007FBCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B69B81B5CD961007FBCCF /* IntergalacticTraveler.app */,
+				FD9B69D11B5CD961007FBCCF /* IntergalacticTravelerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9B69BA1B5CD961007FBCCF /* IntergalacticTraveler */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B69BF1B5CD961007FBCCF /* AppDelegate.h */,
+				FD9B69C01B5CD961007FBCCF /* AppDelegate.m */,
+				FD9B69C21B5CD961007FBCCF /* ViewController.h */,
+				FD9B69C31B5CD961007FBCCF /* ViewController.m */,
+				FD9B69C51B5CD961007FBCCF /* Main.storyboard */,
+				FD9B69C81B5CD961007FBCCF /* Images.xcassets */,
+				FD9B69CA1B5CD961007FBCCF /* LaunchScreen.xib */,
+				FD9B69BB1B5CD961007FBCCF /* Supporting Files */,
+			);
+			path = IntergalacticTraveler;
+			sourceTree = "<group>";
+		};
+		FD9B69BB1B5CD961007FBCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B69BC1B5CD961007FBCCF /* Info.plist */,
+				FD9B69BD1B5CD961007FBCCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD9B69D41B5CD961007FBCCF /* IntergalacticTravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B69D71B5CD961007FBCCF /* IntergalacticTravelerTests.m */,
+				FD9B69D51B5CD961007FBCCF /* Supporting Files */,
+			);
+			path = IntergalacticTravelerTests;
+			sourceTree = "<group>";
+		};
+		FD9B69D51B5CD961007FBCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B69D61B5CD961007FBCCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9B69B71B5CD961007FBCCF /* IntergalacticTraveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9B69DB1B5CD961007FBCCF /* Build configuration list for PBXNativeTarget "IntergalacticTraveler" */;
+			buildPhases = (
+				FD9B69B41B5CD961007FBCCF /* Sources */,
+				FD9B69B51B5CD961007FBCCF /* Frameworks */,
+				FD9B69B61B5CD961007FBCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntergalacticTraveler;
+			productName = IntergalacticTraveler;
+			productReference = FD9B69B81B5CD961007FBCCF /* IntergalacticTraveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD9B69D01B5CD961007FBCCF /* IntergalacticTravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9B69DE1B5CD961007FBCCF /* Build configuration list for PBXNativeTarget "IntergalacticTravelerTests" */;
+			buildPhases = (
+				FD9B69CD1B5CD961007FBCCF /* Sources */,
+				FD9B69CE1B5CD961007FBCCF /* Frameworks */,
+				FD9B69CF1B5CD961007FBCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9B69D31B5CD961007FBCCF /* PBXTargetDependency */,
+			);
+			name = IntergalacticTravelerTests;
+			productName = IntergalacticTravelerTests;
+			productReference = FD9B69D11B5CD961007FBCCF /* IntergalacticTravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9B69B01B5CD961007FBCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Edil Ashimov";
+				TargetAttributes = {
+					FD9B69B71B5CD961007FBCCF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FD9B69D01B5CD961007FBCCF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FD9B69B71B5CD961007FBCCF;
+					};
+				};
+			};
+			buildConfigurationList = FD9B69B31B5CD961007FBCCF /* Build configuration list for PBXProject "IntergalacticTraveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9B69AF1B5CD961007FBCCF;
+			productRefGroup = FD9B69B91B5CD961007FBCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9B69B71B5CD961007FBCCF /* IntergalacticTraveler */,
+				FD9B69D01B5CD961007FBCCF /* IntergalacticTravelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9B69B61B5CD961007FBCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B69C71B5CD961007FBCCF /* Main.storyboard in Resources */,
+				FD9B69CC1B5CD961007FBCCF /* LaunchScreen.xib in Resources */,
+				FD9B69C91B5CD961007FBCCF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9B69CF1B5CD961007FBCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9B69B41B5CD961007FBCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B69C41B5CD961007FBCCF /* ViewController.m in Sources */,
+				FD9B69C11B5CD961007FBCCF /* AppDelegate.m in Sources */,
+				FD9B69BE1B5CD961007FBCCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9B69CD1B5CD961007FBCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B69D81B5CD961007FBCCF /* IntergalacticTravelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD9B69D31B5CD961007FBCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9B69B71B5CD961007FBCCF /* IntergalacticTraveler */;
+			targetProxy = FD9B69D21B5CD961007FBCCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD9B69C51B5CD961007FBCCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9B69C61B5CD961007FBCCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9B69CA1B5CD961007FBCCF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9B69CB1B5CD961007FBCCF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD9B69D91B5CD961007FBCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD9B69DA1B5CD961007FBCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9B69DC1B5CD961007FBCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntergalacticTraveler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD9B69DD1B5CD961007FBCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntergalacticTraveler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD9B69DF1B5CD961007FBCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IntergalacticTravelerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntergalacticTraveler.app/IntergalacticTraveler";
+			};
+			name = Debug;
+		};
+		FD9B69E01B5CD961007FBCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IntergalacticTravelerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntergalacticTraveler.app/IntergalacticTraveler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9B69B31B5CD961007FBCCF /* Build configuration list for PBXProject "IntergalacticTraveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9B69D91B5CD961007FBCCF /* Debug */,
+				FD9B69DA1B5CD961007FBCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9B69DB1B5CD961007FBCCF /* Build configuration list for PBXNativeTarget "IntergalacticTraveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9B69DC1B5CD961007FBCCF /* Debug */,
+				FD9B69DD1B5CD961007FBCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD9B69DE1B5CD961007FBCCF /* Build configuration list for PBXNativeTarget "IntergalacticTravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9B69DF1B5CD961007FBCCF /* Debug */,
+				FD9B69E01B5CD961007FBCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9B69B01B5CD961007FBCCF /* Project object */;
+}
