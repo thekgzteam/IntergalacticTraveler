@@ -14,6 +14,7 @@
 		FD9B69C91B5CD961007FBCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9B69C81B5CD961007FBCCF /* Images.xcassets */; };
 		FD9B69CC1B5CD961007FBCCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9B69CA1B5CD961007FBCCF /* LaunchScreen.xib */; };
 		FD9B69D81B5CD961007FBCCF /* IntergalacticTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69D71B5CD961007FBCCF /* IntergalacticTravelerTests.m */; };
+		FD9B69EE1B5CEAF2007FBCCF /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B69ED1B5CEAF2007FBCCF /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FD9B69D11B5CD961007FBCCF /* IntergalacticTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9B69D61B5CD961007FBCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9B69D71B5CD961007FBCCF /* IntergalacticTravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelerTests.m; sourceTree = "<group>"; };
+		FD9B69EC1B5CEAF2007FBCCF /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewViewController.h; path = IntergalacticTraveler.xcodeproj/../NewViewController.h; sourceTree = SOURCE_ROOT; };
+		FD9B69ED1B5CEAF2007FBCCF /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewViewController.m; path = IntergalacticTraveler.xcodeproj/../NewViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				FD9B69C01B5CD961007FBCCF /* AppDelegate.m */,
 				FD9B69C21B5CD961007FBCCF /* ViewController.h */,
 				FD9B69C31B5CD961007FBCCF /* ViewController.m */,
+				FD9B69EC1B5CEAF2007FBCCF /* NewViewController.h */,
+				FD9B69ED1B5CEAF2007FBCCF /* NewViewController.m */,
 				FD9B69C51B5CD961007FBCCF /* Main.storyboard */,
 				FD9B69C81B5CD961007FBCCF /* Images.xcassets */,
 				FD9B69CA1B5CD961007FBCCF /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				FD9B69C41B5CD961007FBCCF /* ViewController.m in Sources */,
 				FD9B69C11B5CD961007FBCCF /* AppDelegate.m in Sources */,
 				FD9B69BE1B5CD961007FBCCF /* main.m in Sources */,
+				FD9B69EE1B5CEAF2007FBCCF /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

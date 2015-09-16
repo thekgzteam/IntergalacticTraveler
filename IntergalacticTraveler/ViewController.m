@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NewViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NewViewController *nextViewController = [segue destinationViewController];
+    nextViewController.title = segue.identifier;
 
+    if ([segue.identifier isEqualToString:@"blueOrbit"]) {
+        nextViewController.planetImage = [UIImage imageNamed:@"blueDwarf"];
+        [nextViewController.view setBackgroundColor:[UIColor blueColor]];
+    }
+    else if ([segue.identifier isEqualToString:@"redDwarf"]) {
+        nextViewController.planetImage = [UIImage imageNamed:@"redDwarf"];
+        [nextViewController.view setBackgroundColor:[UIColor redColor]];
+    }
+}
+- (IBAction)unwindAndbookit:(UIStoryboardSegue *) segue{
+}
 @end
